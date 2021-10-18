@@ -56,6 +56,9 @@ a:active {
 main {
   width: 70vw;
   margin: 0 auto;
+  display: grid;
+  grid-auto-rows:min-content;
+  grid-auto-columns:min-content;
 }
 
 .intro-block {
