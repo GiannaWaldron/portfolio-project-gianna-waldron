@@ -101,6 +101,7 @@ header {
   grid-gap:2rem;
   padding-bottom:2rem;
   border-bottom:1px solid #dadada;
+  border-width: 1 / 4;
 }
 
 .project-block_section-head {
