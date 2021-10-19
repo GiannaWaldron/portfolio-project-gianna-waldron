@@ -104,8 +104,8 @@ header {
 }
 
 .project-block_section-head {
-  grid-column: 1 / 8;
-  grid-row:1;
+  grid-column: 1 / 4;
+  grid-row:4;
 }
 
 .project-block_title {
