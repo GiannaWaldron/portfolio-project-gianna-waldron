@@ -18,7 +18,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   padding:1.5rem;
-  background-color:#fff;
+  background-color:rgb(107, 102, 84);
 }
 
 ul {
@@ -44,7 +44,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(102, 7, 7);
   text-decoration: none;
 }
 
