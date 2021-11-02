@@ -13,6 +13,8 @@
 
    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Source+Sans+Pro&display=swap');
 
+   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Noto+Serif+Display:wght@300&display=swap');
+
 html {
   color: #222;
   font-size: 1em;
@@ -93,7 +95,7 @@ header {
 .project-block {
   display:grid;
   grid-template-columns: repeat(3, 1fr);  
-  grid-auto-rows:max-content;
+  grid-auto-rows:min-content;
   grid-gap:2rem;
   padding-bottom:2rem;
   border-bottom:1px solid #dadada;
@@ -140,7 +142,7 @@ header {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif;
+  font-family: 'Noto Serif Display', serif;
   font-weight:500;
   margin:0;
   padding:0;
@@ -173,7 +175,7 @@ h5 {
 
 
 p{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   padding:0;
