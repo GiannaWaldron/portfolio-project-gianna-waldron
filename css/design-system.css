@@ -16,7 +16,7 @@ body {
 
 :root {
   --wf-tan: #b18646;
-  --wf-light-gray: #E6ECF2;
+  --wf-light-gray: #a8acb1;
   --wf-bright-blue: #8297bd;
   --wf-medium-blue: #4d6eb6;
   --wf-medium-red: #774554;
@@ -95,7 +95,7 @@ section {
 }
 
 .profile-card {
-    background-color: #E6ECF2;
+    background-color: #a8acb1;
     padding:1rem;
 }
 .profile-card > img {
@@ -184,7 +184,7 @@ p, li {
 }
 
 .text-white {
-  color:#fff;
+  color:rgb(14, 9, 9);
 }
 
 .title {
