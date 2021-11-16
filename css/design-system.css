@@ -15,13 +15,13 @@ body {
 }
 
 :root {
-  --wf-gray: #434E59;
+  --wf-tan: #b18646;
   --wf-light-gray: #E6ECF2;
-  --wf-bright-yellow: #F2BC1B;
-  --wf-medium-yellow: #CF9730;
-  --wf-medium-brown: #CF9730;
-  --wf-deep-brown: #736048;
-  --body-text-color: var(--wf-medium-brown);
+  --wf-bright-blue: #8297bd;
+  --wf-medium-blue: #4d6eb6;
+  --wf-medium-red: #774554;
+  --wf-deep-red: #581f30;
+  --body-text-color: var(--wf-deep-red);
 }
 
 /* Structure */
@@ -87,7 +87,7 @@ section {
 }
 
 .card-image {
-    background-color: #E6ECF2;
+    background-color: #3a0725;
     padding:1rem;
 }
 .card-image > img {
@@ -95,7 +95,7 @@ section {
 }
 
 .profile-card {
-    background-color: #434E59;
+    background-color: #44132a;
     padding:1rem;
 }
 .profile-card > img {
@@ -201,20 +201,20 @@ p, li {
     background-color: #434E59;
   }
 
-    .color-light-gray {
-    background-color: #E6ECF2;
+    .color-light-tan {
+    background-color: #b18646;
   }
-    .color-bright-yellow {
-    background-color: #F2BC1B;
+    .color-bright-blue {
+    background-color: #8297bd;
   }
-    .color-medium-yellow {
-    background-color: #CF9730;
+    .color-medium-blue{
+    background-color: #4d6eb6;
   }
-    .color-medium-brown {
-    background-color: #A66312;
+    .color-medium-red {
+    background-color: #774554;
   }
-    .color-deep-brown {
-    background-color: #736048;
+    .color-deep-red {
+    background-color: #581f30;
   }
 
 
@@ -265,7 +265,7 @@ p, li {
 /* -- buttons -- */
 
 .button {
-  background-color: #CF9730; 
+  background-color: #b18646; 
   border: none;
   color: white;
   padding: 8px 32px;
@@ -280,36 +280,36 @@ p, li {
 }
 
 .button1 {
-  background-color: #CF9730; 
+  background-color: #b18646; 
   color: white; 
 }
 
 .button1:hover {
-  background-color: #A66312;
+  background-color: #581f30;
   color: white;
 }
 
 .button2 {
   background-color: white; 
   color: #A66312; 
-  border: 2px solid #736048;
+  border: 2px solid #774554;
 }
 
 .button2:hover {
   background-color: white; 
   color: #A66312; 
-  border: 2px solid #F2B138;
+  border: 2px solid #4d6eb6;
 }
 
 .button3 {
-  background-color: #736048; 
+  background-color: #774554; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
 }
 
 .button3:hover {
-  background-color: #736048; 
+  background-color: #774554; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
@@ -322,9 +322,9 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #F2B138;
+  border: 1px solid #4d6eb6;
   border-radius: 2px;
-  color: #A66312; 
+  color: #581f30; 
 
 }
 
@@ -332,7 +332,7 @@ input[type=text] {
 
 
 .dropbtn {
-  background-color: #736048; 
+  background-color: #774554; 
   box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
   color: white;
   padding: 16px;
@@ -369,7 +369,7 @@ input[type=text] {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #A66312;
+  background-color: #581f30;
 }
 
 /* -- switch -- */
@@ -413,11 +413,11 @@ input[type=text] {
 }
 
 input:checked + .slider {
-  background-color: #F2B138;
+  background-color: #8297bd;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #F2B138;
+  box-shadow: 0 0 1px #8297bd;
 }
 
 input:checked + .slider:before {
@@ -446,7 +446,7 @@ label {
 
 input {
     margin: .4rem 0;
-    border: 1px solid #F2B138;
+    border: 1px solid #8297bd;
 }
 
 .pointer{
@@ -459,7 +459,7 @@ input {
 .loader {
   border: 16px solid #ccc;
   border-radius: 50%;
-  border-top: 16px solid #F2B138;
+  border-top: 16px solid #8297bd;
   width: 100px;
   height: 100px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -506,7 +506,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #CF9730;
+  background-color: #4d6eb6;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
